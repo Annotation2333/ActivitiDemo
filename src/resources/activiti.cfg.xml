@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org.schema/context/spring-context.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!--dbcp连接池-->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <!--配置数据库相关的信息-->
+        <!--数据库驱动-->
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <!--数据库连接-->
+        <property name="url" value="jdbc:mysql:///activitidb?serverTimezone=GMT%2B8&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>
+        <!--数据库用户名-->
+        <property name="username" value="root"/>
+        <!--数据库密码-->
+        <property name="password" value="root"/>
+        <property name="maxActive" value="3"/>
+        <property name="maxIdle" value="1"/>
+    </bean>
+
+    <!--在默认方式下，这个bean的id必须是processEngineConfiguration。配置完这些内容，activiti会到指定的数据库自动生成需要的表-->
+    <bean id="processEngineConfiguration"  class="org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration">
+        <!--引用数据源-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--activiti生成数据表时的策略 设置为true时：如果数据库存在相应的表，则直接使用，否则创建-->
+        <property name="databaseSchemaUpdate" value="true"/>
+    </bean>
+</beans>

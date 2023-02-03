@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/cn/zml/cn/ActivitiUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/resources/activiti.cfg.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/resources/activiti.cfg.xml.fxml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/java/com/purvardata/himp/config/SecurityConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/java/com/purvardata/himp/mybatis/dao/TAssetMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/java/com/purvardata/himp/mybatis/entity/TPartBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/java/com/purvardata/himp/mybatis/entity/TStockCheckinDetail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/java/com/purvardata/himp/mybatis/param/AssetParam.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/java/com/purvardata/himp/service/AssetService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/java/com/purvardata/himp/service/dto/AssetDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/java/com/purvardata/himp/service/dto/part/TPartBaseDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/java/com/purvardata/himp/service/part/PartBaseService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/java/com/purvardata/himp/service/part/PartPurchaseService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/java/com/purvardata/himp/service/part/StockCheckinService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/java/com/purvardata/himp/web/rest/AssetResource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/java/com/purvardata/himp/web/rest/vm/AssetSearchVM.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/java/com/purvardata/himp/web/rest/vm/part/PartBaseCreateVM.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/java/com/purvardata/himp/web/rest/vm/part/PartBaseUpdateVM.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/resources/mappers/TAssetMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/resources/mappers/TAssetPartMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/resources/mappers/part/TPartMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../project/himp-inspur/pc/himp/src/main/resources/mappers/part/TStockCheckinMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
